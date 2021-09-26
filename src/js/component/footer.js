@@ -1,13 +1,14 @@
 import React, { Fragment } from "react";
-import Header from "./header";
+
+
 
 //create your first component
-const Home = () => {
+const Footer = () => {
 	return (
 		<Fragment className="text-center mt-5">
-			<Header />
+			
 		</Fragment>
 	);
 };
 
-export default Home;
+export default Footer;
