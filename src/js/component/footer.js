@@ -1,13 +1,13 @@
-import React, { Fragment } from "react";
-
-
+import React from "react";
 
 //create your first component
 const Footer = () => {
 	return (
-		<Fragment className="text-center mt-5">
-			
-		</Fragment>
+		<footer className="footer bg-danger text-center text-lg-start">
+			<div className="text-center p-3">
+				© 2021 Copyright: Lucas Carneiro
+			</div>
+		</footer>
 	);
 };
 
